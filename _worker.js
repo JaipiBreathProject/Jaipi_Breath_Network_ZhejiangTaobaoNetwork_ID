@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'fb855570-97ee-4a2e-be54-11a3bc1f56e7';
 
-const proxyIPs = ['72.232.235.85'];
+const proxyIPs = ['45.194.25.18'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
@@ -702,7 +702,7 @@ function getVLESSConfig(userIDs, hostName) {
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	header.push(`\n<p align="center"><img src="https://i.postimg.cc/cHBbfvns/20240206-214058.png">`);
-	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN VLESS GOOGLE CLOUD BY JAIPI BREATH</b>\n`);
+	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN VLESS ZHEJIANG TAOBAO NETWORK ID BY JAIPI BREATH</b>\n`);
 	header.push(`<b style=" font-size: 14px;" >Gunakan Internet Dengan Bijak</b>\n`);
 	header.push(`\n<a href="https://github.com/JaipiBreathProject/Jaipi_Breath_Network" target="_blank">Jaipi Breath - Github</a>\n`);
 	header.push(`\n<iframe src="https://ghbtns.com/github-btn.html?user=USERNAME&repo=REPOSITORY&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>\n\n`.replace(/USERNAME/g, "JaipiBreathProject").replace(/REPOSITORY/g, "Jaipi_Breath_Network"));
