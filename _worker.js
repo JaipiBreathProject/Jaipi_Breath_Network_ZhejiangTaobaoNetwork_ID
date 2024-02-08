@@ -701,7 +701,7 @@ function getVLESSConfig(userIDs, hostName) {
 	let header = [];
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const clash_link = `https://api.v1.mk/sub?target=clash&url=${encodeURIComponent(sublink)}&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	header.push(`\n<p align="center"><img src="https://i.postimg.cc/cHBbfvns/20240206-214058.png">`);
+	header.push(`\n<p align="center"><img src="https://raw.githubusercontent.com/JaipiBreathProject/vless-jaipibreath/main/Logo_Breath.png">`);
 	header.push(`\n<b style=" font-size: 15px;" >Welcome! AKUN VLESS ZHEJIANG TAOBAO NETWORK ID BY JAIPI BREATH</b>\n`);
 	header.push(`<b style=" font-size: 14px;" >Gunakan Internet Dengan Bijak</b>\n`);
 	header.push(`\n<a href="https://github.com/JaipiBreathProject/Jaipi_Breath_Network" target="_blank">Jaipi Breath - Github</a>\n`);
